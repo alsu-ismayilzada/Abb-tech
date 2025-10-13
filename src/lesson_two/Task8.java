@@ -3,7 +3,7 @@ package lesson_two;
 import java.util.Scanner;
 
 public class Task8 {
-    public static void main() {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -14,10 +14,10 @@ public class Task8 {
         int totalFactorial = 0;
 
         while (temp > 0) {
-            int units = temp % 10;
+            int digits = temp % 10;
 
             int factorial = 1;
-            for (int i = 1; i <= units; i++) {
+            for (int i = 1; i <= digits; i++) {
                 factorial *= i;
             }
 

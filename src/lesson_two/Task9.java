@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task9 {
 
-    public static void main() {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -23,11 +23,11 @@ public class Task9 {
 
 
         while (temp > 0){
-            var units = temp % 10;
+            var digits = temp % 10;
             temp /= 10;
             var result = 1;
             for(int i = 1; i <= countOfNumber; i++){
-                result *= units;
+                result *= digits;
             }
             totalSum += result;
         }
