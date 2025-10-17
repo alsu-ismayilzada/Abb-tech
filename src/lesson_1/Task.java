@@ -1,4 +1,4 @@
-package lesson_one;
+package lesson_1;
 
 public class Task {
 
