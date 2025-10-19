@@ -23,7 +23,7 @@ public class Task2 {
             otherDiagonal += matrix[i][matrix.length - 1 - i];
         }
 
-        System.out.println("Main diagonal: " + mainDiagonal);
+        System.out.println("lesson4.Main diagonal: " + mainDiagonal);
         System.out.println("Other diagonal: " + otherDiagonal);
 
     }
