@@ -1,4 +1,4 @@
-package lesson4;
+package lesson_4;
 
 public class Book {
 
@@ -55,14 +55,4 @@ public class Book {
         System.out.println("This is a regular book");
     }
 
-    @Override
-    public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", isbn='" + isbn + '\'' +
-                ", totalCopies=" + totalCopies +
-                ", availableCopies=" + availableCopies +
-                '}';
-    }
 }
